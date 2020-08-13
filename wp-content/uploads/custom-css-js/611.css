@@ -1,0 +1,32 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.elementor-inner{
+  width:100vh;
+  height:100vw;
+  overflow-x:hidden;
+ 
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left; 
+  position:absolute;
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+}
+
+.elementor-section-wrap{
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left; 
+  display:flex;
+  flex-direction: row; 
+  overflow-y: scroll;
+  
+  width: 300vw;}
+
+.section1{ width:300vw; height:10vh; overflow-y: scroll;}
+.section2{ width:300vw; height:10vh; overflow-y: scroll;}
+.section3{ width:300vw; height:10vh; overflow-y: scroll;}
+
+::-webkit-scrollbar{
+display:none
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
