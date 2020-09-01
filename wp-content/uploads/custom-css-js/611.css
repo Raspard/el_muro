@@ -1,10 +1,10 @@
 <!-- start Simple Custom CSS and JS -->
 <style type="text/css">
 .elementor-inner{
-  width:100vh;
+width:100vh;
   height:100vw;
   overflow-x:hidden;
- 
+  overflow-y: scroll;
   transform: rotate(-90deg) translateX(-100vh);
   transform-origin: top left; 
   position:absolute;
@@ -17,13 +17,11 @@
   transform-origin: top left; 
   display:flex;
   flex-direction: row; 
-  overflow-y: scroll;
   
-  width: 300vw;}
+  width: 200vw;
+}
 
-.section1{ width:300vw; height:10vh; overflow-y: scroll;}
-.section2{ width:300vw; height:10vh; overflow-y: scroll;}
-.section3{ width:300vw; height:10vh; overflow-y: scroll;}
+.section{ width:100vw; height:10vh}
 
 ::-webkit-scrollbar{
 display:none
